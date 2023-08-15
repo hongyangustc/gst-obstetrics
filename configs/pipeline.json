@@ -1,0 +1,143 @@
+{
+    "spl_det_names": [],
+    "seg_cfg_path": "/Documents/Ultrasound_AI/model/obstetrics/configs/segment.json",
+    "spl_cfg_path": "/Documents/Ultrasound_AI/model/obstetrics/configs/standard_plane.json",
+    "pipelines": [
+        {
+            "name": "腹围横切面",
+            "standard_plane": 1,
+            "measure": {
+                "type": "ACMeasure",
+                "segment": "obstetrics",
+                "roi_flag": 1,
+                "up_ratio": 1.3,
+                "seg_cls": ["腹围"],
+                "measure_name": {"AC": "腹围"}
+            }
+        },
+        {
+            "name": "经丘脑横切面",
+            "standard_plane": 1,
+            "measure": {
+                "type": "HCBPDMeasure",
+                "segment": "obstetrics",
+                "roi_flag": 1,
+                "up_ratio": 1.3,
+                "seg_cls": ["颅骨外缘", "颅骨内缘", "小脑", "侧脑室"],
+                "measure_name": {"HC": "头围", "BPD": "双顶径"}
+            }
+        },
+        {
+            "name": "经侧脑室横切面",
+            "standard_plane": 1,
+            "measure": {
+                "type": "LVMeasure",
+                "segment": "obstetrics",
+                "roi_flag": 1,
+                "up_ratio": 1.3,
+                "seg_cls": ["侧脑室"],
+                "measure_name": {"LV": "侧脑室宽度"}
+            }
+        },
+        {
+            "name": "经小脑横切面",
+            "standard_plane": 1,
+            "measure": {
+                "type": "CBMeasure",
+                "segment": "obstetrics",
+                "roi_flag": 1,
+                "up_ratio": 1.3,
+                "seg_cls": ["小脑"],
+                "measure_name": {"CB": "小脑横径"}
+            }
+        },
+        {
+            "name": "上唇冠状切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "双眼球横切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "双肾水平横切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "肾脏长轴切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "膀胱水平横切面及双侧脐动脉",
+            "standard_plane": 1
+        },
+        {
+            "name": "颜面正中矢状切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "胆囊脐静脉切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "颈胸段脊柱矢状切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "脊髓圆锥定位切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "双足切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "双手切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "尺桡骨长轴切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "肱骨长轴切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "胫腓骨长轴切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "股骨长轴切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "三血管气管切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "右心室流出道切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "四腔心切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "左右肺动脉分叉切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "左心室流出道切面",
+            "standard_plane": 1
+        },
+        {
+            "name": "羊水",
+            "standard_plane": 0
+        },
+        {
+            "name": "胎盘",
+            "standard_plane": 0
+        }
+    ]
+}

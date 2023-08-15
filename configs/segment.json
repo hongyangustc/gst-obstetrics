@@ -1,0 +1,17 @@
+{
+    "segments": [
+        {
+            "name": "obstetrics",
+            "model": "PaddleSeg",
+            "args": {
+                "engine_file": "/Documents/Ultrasound_AI/model/obstetrics/obstetrics_seg.trt",
+                "width": 320,
+                "height": 320,
+                "class_num": 5,
+                "class_name": ["颅骨外缘", "颅骨内缘", "小脑", "侧脑室", "腹围"],
+                "input_name": "x",
+                "output_name": "argmax_0.tmp_0"
+            }
+        }
+    ]
+}

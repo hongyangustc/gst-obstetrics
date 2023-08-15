@@ -1,0 +1,314 @@
+{
+    "planes": [
+        {
+            "name": "腹围横切面",
+            "organ": "腹围横切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "胃泡", "ios": 0.8, "num": 1, "score": 1}, 
+                {"name": "肝脏", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "下腔静脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "降主动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "肋骨", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "椎体", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": ["脐静脉", "胆囊"]
+        },
+        {
+            "name": "经丘脑横切面",
+            "organ": "经丘脑横切面",
+            "necessary": ["丘脑"],
+            "num": 1,
+            "anatomy": [
+                {"name": "透明隔腔", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脑外侧裂", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "丘脑", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "大脑脚", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "大脑镰", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": [
+                {"name": "小脑", "ios": 0.8, "num": 1},
+                {"name": "侧脑室", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "经侧脑室横切面",
+            "organ": "经侧脑室横切面",
+            "necessary": ["侧脑室"],
+            "num": 1,
+            "anatomy": [
+                {"name": "透明隔腔", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脑外侧裂", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "侧脑室", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脉络丛", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "大脑镰", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "经小脑横切面",
+            "organ": "经小脑横切面",
+            "necessary": ["小脑"],
+            "num": 1,
+            "anatomy": [
+                {"name": "小脑", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "小脑蚓部", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "后颅窝池", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "枕后皮层", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "透明隔腔", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脑外侧裂", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "上唇冠状切面",
+            "organ": "上唇冠状切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "鼻冠状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "鼻孔", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "上唇冠状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "下唇冠状切", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "双眼球横切面",
+            "organ": "双眼球横切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "眼球", "ios": 0.8, "num": 2, "score": 1},
+                {"name": "眼眶", "ios": 0.8, "num": 2, "score": 1},
+                {"name": "晶状体", "ios": 0.8, "num": 2, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "双肾水平横切面",
+            "organ": "双肾水平横切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "肾短轴", "ios": 0.8, "num": 2, "score": 1},
+                {"name": "肾盂", "ios": 0.8, "num": 2, "score": 1},
+                {"name": "肝脏肠管", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "椎体", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "肾脏长轴切面",
+            "organ": "肾脏长轴切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "肾长轴", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "膀胱水平横切面及双侧脐动脉",
+            "organ": "膀胱水平横切面及双侧脐动脉",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "脐动脉", "ios": 0.8, "num": 2, "score": 1},
+                {"name": "膀胱", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "大腿", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "髂骨翼", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "颜面正中矢状切面",
+            "organ": "颜面正中矢状切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "前额", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "鼻尖", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "鼻骨", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "上唇矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "下唇矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "下巴", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "胆囊脐静脉切面",
+            "organ": "胆囊脐静脉切面",
+            "necessary": ["脐静脉", "胆囊"],
+            "num": 1,
+            "anatomy": [
+                {"name": "胃泡", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "胆囊", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脐静脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "肝脏", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "下腔静脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "降主动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "肋骨", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "椎体", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "颈胸段脊柱矢状切面",
+            "organ": "颈胸段脊柱矢状切面",
+            "necessary": ["颈部矢状切"],
+            "num": 1,
+            "anatomy": [
+                {"name": "脊椎矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "椎体矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "颈部矢状切", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "脊髓圆锥定位切面",
+            "organ": "脊髓圆锥定位切面",
+            "necessary": ["脊髓圆锥"],
+            "num": 1,
+            "anatomy": [
+                {"name": "脊椎矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "脊髓圆锥", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "椎体矢状切", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "骶尾椎矢状切", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "双足切面",
+            "organ": "足切面",
+            "necessary": ["脚掌"],
+            "num": 1,
+            "anatomy": [
+                {"name": "脚趾", "ios": 0.8, "num": 1},
+                {"name": "脚掌", "ios": 0.8, "num": 2}
+            ]
+        },
+        {
+            "name": "双手切面",
+            "organ": "手切面",
+            "necessary": ["手掌"],
+            "num": 1,
+            "anatomy": [
+                {"name": "手指", "ios": 0.8, "num": 1},
+                {"name": "手掌", "ios": 0.8, "num": 2},
+                {"name": "手腕", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "尺桡骨长轴切面",
+            "organ": "尺桡骨长轴切面",
+            "necessary": ["尺桡骨"],
+            "num": 1,
+            "anatomy": [
+                {"name": "尺桡骨", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "肱骨长轴切面",
+            "organ": "肱骨长轴切面",
+            "necessary": ["肱骨"],
+            "num": 1,
+            "anatomy": [
+                {"name": "肱骨", "ios": 0.8, "num": 1},
+                {"name": "肩侧近端", "ios": 0.8, "num": 1},
+                {"name": "肘侧远端", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "胫腓骨长轴切面",
+            "organ": "胫腓骨长轴切面",
+            "necessary": ["胫腓骨"],
+            "num": 1,
+            "anatomy": [
+                {"name": "胫腓骨", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "股骨长轴切面",
+            "organ": "股骨长轴切面",
+            "necessary": ["股骨"],
+            "num": 1,
+            "anatomy": [
+                {"name": "股骨", "ios": 0.8, "num": 1},
+                {"name": "髋侧近端", "ios": 0.8, "num": 1},
+                {"name": "膝侧远端", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "三血管气管切面",
+            "organ": "三血管气管切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "动脉导管", "ios": 0.8, "num": 1},
+                {"name": "主动脉弓", "ios": 0.8, "num": 1},
+                {"name": "上腔静脉", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "右心室流出道切面",
+            "organ": "右心室流出道切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "主肺动脉", "ios": 0.8, "num": 1},
+                {"name": "肺动脉瓣", "ios": 0.8, "num": 1},
+                {"name": "动脉导管", "ios": 0.8, "num": 1},
+                {"name": "降主动脉", "ios": 0.8, "num": 1},
+                {"name": "升主动脉", "ios": 0.8, "num": 1}
+            ]
+        },
+        {
+            "name": "四腔心切面",
+            "organ": "四腔心切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "左心房", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "左心室", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "右心房", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "右心室", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "室间隔", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "二尖瓣瓣膜", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "三尖瓣瓣膜", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "心内膜垫", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "降主动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "卵圆孔", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "左右肺动脉分叉切面",
+            "organ": "左右肺动脉分叉切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "主肺动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "左肺动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "右肺动脉", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "降主动脉", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        },
+        {
+            "name": "左心室流出道切面",
+            "organ": "左心室流出道切面",
+            "necessary": [],
+            "num": 1,
+            "anatomy": [
+                {"name": "左心房", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "左心室", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "右心房", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "右心室", "ios": 0.8, "num": 1, "score": 1},
+                {"name": "升主动脉", "ios": 0.8, "num": 1, "score": 1}
+            ],
+            "error_anatomy": []
+        }
+    ]
+}
